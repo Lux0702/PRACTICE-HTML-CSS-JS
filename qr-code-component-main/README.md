@@ -1,3 +1,4 @@
+# Deploy link : https://qr-code-component-14ca8.web.app/
 # Frontend Mentor - QR code component
 
 ![Design preview for the QR code component coding challenge](./preview.jpg)
