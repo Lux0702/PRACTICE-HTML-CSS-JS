@@ -1,3 +1,4 @@
+# Deploy link: https://blog-preview-68ea3.web.app/
 # Frontend Mentor - Blog preview card
 
 ![Design preview for the Blog preview card coding challenge](./preview.jpg)
