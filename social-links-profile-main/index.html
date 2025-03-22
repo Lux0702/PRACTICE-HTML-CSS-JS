@@ -14,7 +14,7 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body class="bg-grey-900 flex items-center justify-center min-h-screen flex-col text-[14px] ">
+<body class="bg-grey-900 flex items-center justify-center min-h-screen flex-col text-[14px] font-custom ">
  <div class="container text-white w-[338px] h-[540px] bg-grey-800 rounded-[10px] p-10 flex-col justify-space-between hover:scale-110  duration-300 transition-all">
   <section class="text-center">
     <img src="./assets/images/avatar-jessica.jpeg" alt="jessica" class="rounded-full w-20 h-20 mx-auto">
@@ -36,7 +36,7 @@
   const list =['GitHub'," Frontend Mentor", "LinkedIn", "Twitter", "Instagram",]
   const social = document.getElementById('social');
   list.map(item =>{
-    social.innerHTML += `<button class="text-center w-full h-10 bg-grey-700 my-2 rounded-md cursor-pointer">${item}</button>`
+    social.innerHTML += `<button class="text-center w-full h-10 bg-grey-700 my-2 rounded-md cursor-pointer hover:bg-green-custom hover:font-bold hover:text-black transition-all duration-300">${item}</button>`
 
   })
 </script>

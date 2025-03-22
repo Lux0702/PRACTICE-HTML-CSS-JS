@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    src: url('/assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format(truetype);
+}
 @layer utilities {
     .bg-grey-700 {
       background-color: hsl(0, 0%, 20%);
@@ -10,7 +18,14 @@
       .bg-grey-900 {
         background-color: hsl(0, 0%, 8%)
       }
+      .hover\:bg-green-custom:hover{
+        background-color: hsl(75, 94%, 57%);
+    }
     .text-custom-green {
       color: hsl(75, 94%, 57%);
     }
+    .font-custom{
+        font-family: 'Inter, sans-serif';
+    }
+    
   }
