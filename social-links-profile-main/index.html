@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href="./output.css" rel="stylesheet">
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="bg-grey-900 flex items-center justify-center min-h-screen flex-col text-[14px] ">
+ <div class="container text-white w-[338px] h-[540px] bg-grey-800 rounded-[10px] p-10 flex-col justify-space-between hover:scale-110  duration-300 transition-all">
+  <section class="text-center">
+    <img src="./assets/images/avatar-jessica.jpeg" alt="jessica" class="rounded-full w-20 h-20 mx-auto">
+  
+  <p class="font-bold text-[25px] my-1">Jessica Randall</p>
+  <p class="text-custom-green font-bold mb-3">London, United Kingdom</p>
+  <p class="font-normal my-2.5">"Front-end developer and avid reader."</p>
+</section>
+  <div id="social"></div>
+ </div>
+  
+  
+  <div class="attribution my-2.5">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Lux0702">Lux</a>.
+  </div>
+</body>
+<script>
+  const list =['GitHub'," Frontend Mentor", "LinkedIn", "Twitter", "Instagram",]
+  const social = document.getElementById('social');
+  list.map(item =>{
+    social.innerHTML += `<button class="text-center w-full h-10 bg-grey-700 my-2 rounded-md cursor-pointer">${item}</button>`
+
+  })
+</script>
+</html>

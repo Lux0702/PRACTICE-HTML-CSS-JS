@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@layer utilities {
+    .bg-grey-700 {
+      background-color: hsl(0, 0%, 20%);
+    }
+    .bg-grey-800 {
+        background-color: hsl(0, 0%, 12%);
+      }
+      .bg-grey-900 {
+        background-color: hsl(0, 0%, 8%)
+      }
+    .text-custom-green {
+      color: hsl(75, 94%, 57%);
+    }
+  }
