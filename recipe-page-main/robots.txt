@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://https://recipe-page-f366e.web.app/sitemap.xml
