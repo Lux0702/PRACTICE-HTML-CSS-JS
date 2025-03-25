@@ -219,9 +219,6 @@
   .cursor-pointer {
     cursor: pointer;
   }
-  .cursor-wait {
-    cursor: wait;
-  }
   .resize {
     resize: both;
   }
@@ -236,6 +233,9 @@
   }
   .justify-start {
     justify-content: flex-start;
+  }
+  .gap-2 {
+    gap: calc(var(--spacing) * 2);
   }
   .gap-4 {
     gap: calc(var(--spacing) * 4);
@@ -369,6 +369,9 @@
   }
   .text-green-500 {
     color: hsl(158, 36%, 37%);
+  }
+  .text-grey {
+    color: hsl(228, 12%, 48%);
   }
 }
 @property --tw-border-style {
