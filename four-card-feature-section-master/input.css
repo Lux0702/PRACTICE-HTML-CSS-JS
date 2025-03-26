@@ -1,11 +1,27 @@
 @import "tailwindcss";
 
 
+@font-face {
+    font-family: 'Poppins';
+    src: url('./Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 @layer utilities{
     .bg-grey-400{
         background-color: hsl(212, 6%, 44%);
     }
     .bg-grey-500{
         background-color: hsl(234, 12%, 34%);
+    }
+    .text-grey-400{
+        color: hsl(212, 6%, 44%);
+    }
+    .text-grey-500{
+        color: hsl(234, 12%, 34%);
+    }
+    .font-poppins{
+        font-family: 'Poppins', sans-serif;
     }
 }
