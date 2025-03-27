@@ -1,0 +1,23 @@
+{
+    "tailwindCSS.experimental.classRegex": [
+        "className=\\\"([^\\\"]*)\\\"",  // Hỗ trợ className="..."
+        "class=\\\"([^\\\"]*)\\\"",      // Hỗ trợ class="..."
+        "tw`([^`]*)`",                   // Hỗ trợ tw`...`
+        "tw\\.style\\(([^)]*)\\)",        // Hỗ trợ tw.style(...)
+        "classnames\\(([^)]*)\\)",        // Hỗ trợ classnames(...)
+        "clsx\\(([^)]*)\\)",              // Hỗ trợ clsx(...)
+        "cva\\(([^)]*)\\)"                // Hỗ trợ cva(...)
+    ],
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "tailwindCSS.includeLanguages": {
+        "javascript": "javascript",
+        "typescript": "typescript",
+        "javascriptreact": "javascript",
+        "typescriptreact": "typescript",
+        "html": "html",
+        "css": "css"
+    },
+    "tailwindCSS.emmetCompletions": true
+}

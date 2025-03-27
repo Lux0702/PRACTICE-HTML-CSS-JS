@@ -1,0 +1,43 @@
+@import "tailwindcss";
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@400;700&display=swap');
+ */
+ @font-face {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    src: url('./Montserrat-VariableFont_wght.ttf') format('truetype');    
+}
+
+@layer utilities {
+    .bg-cream {
+        background-color: hsl(30, 38%, 92%);
+    }
+
+    .bg-green-500 {
+        background-color: hsl(158, 36%, 37%);
+    }
+    .hover\:bg-green-700:hover{
+       background-color:  hsl(156, 44%, 18%);
+    }
+
+    .font-montserrat {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .font-fraunces {
+        font-family: 'Fraunces', sans-serif;
+    }
+    .text-green-500 {
+        color: hsl(158, 36%, 37%);
+    }
+    .text-grey{
+        color: hsl(228, 12%, 48%);
+    }
+}
